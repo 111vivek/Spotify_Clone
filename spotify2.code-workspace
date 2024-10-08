@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "F:/TLE/songs"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "spotify2"
+	}
+}

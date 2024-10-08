@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SPOTIFY</title>
+    <link rel="stylesheet" href="style.css" class="css" />
+    <link rel="stylesheet" href="utility.css" class="css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container flex bg-black">
+      <div class="left border">
+        <div class="home bg-color rounded p-1">
+          <div class="logo">
+            <box-icon class="invert" type="logo" name="spotify"></box-icon
+            >Spotify
+          </div>
+          <ul>
+            <li>
+              <box-icon class="invert" name="home" type="solid"></box-icon>Home
+            </li>
+            <li>
+              <box-icon class="invert" name="search" type="solid"></box-icon
+              >Search
+            </li>
+          </ul>
+        </div>
+        <div class="library bg-color rounded p-1">
+          <div class="heading flex">
+          <box-icon class="invert" name="library"></box-icon>
+          <h3>Your Library</h3>
+          </div>
+          <div class="songlist ">
+            <ul>
+              <li>
+              <div class="box">
+              <div class="invert">
+               <box-icon  class='solid' name='music'></box-icon>
+              </div>
+            <div class="info">
+              <div>Song name</div>
+              <div>Artist name</div>
+            </div>
+          <div class="playnow">
+            <span>Play Now</span>
+            <box-icon class="invert"  name='play-circle'></box-icon>
+            
+          
+          </div>
+        </div>
+             </li>
+           </ul>
+
+          </div>
+
+          <div class="footer">
+            <div class="footer-1">
+              <a
+                draggable="false"
+                href="https://www.spotify.com/legal/cookies-policy/"
+                target="_blank"
+                rel="noopener"
+              >
+                <span class="cookies">Cookies</span>
+              </a>
+            </div>
+            <div>
+              <button class="btn">
+                <span aria-hidden="true">
+                  <box-icon class="invert" name="globe"></box-icon>
+                </span>
+                English
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="right border bg-color rounded p-1 m-1">
+        <div class="header">
+          <div class="nav">
+            <box-icon class="invert" name="chevron-left"></box-icon>
+            <box-icon
+              class="invert"
+              name="chevron-right"
+              type="solid"
+            ></box-icon>
+          </div>
+          <div class="buttons">
+            <button>Sign up</button>
+            <button>Login</button>
+          </div>
+          
+        </div>
+        <div class="SpotifyPlaylists">
+          <h1>Spotify Playlists</h1>
+          <div class="CardContainer">
+            
+            <div class="card">
+              <div class="play">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512" style="width: 20px; height: 30px; align-items: center;  ">
+                      
+                      <path d="M73 39c-14.8-9.1-33.4-9.4-48.5-.9S0 62.6 0 80V432c0 17.4 9.4 33.4 24.5 41.9s33.7 8.1 48.5-.9L361 297c14.3-8.7 23-24.2 23-41s-8.7-32.2-23-41L73 39z"/>
+                  </svg>
+              </div>
+              <img src="s1.jpeg" alt="" class="src">
+              <h2>Happy Hits!</h2>
+              <p>Hits to boost your mood and fill you with happiness!</p>
+            </div>
+          
+            <div class="card">
+            
+              
+              
+              <img src="s4.jpeg" alt="" class="src">
+              <h2>Happy Hits!</h2>
+              <p>Hits to boost your mood and fill you with happiness!</p>
+            </div>
+
+            <div class="card">
+              <img src="s3.jpeg" alt="" class="src">
+              <h2>Happy Hits!</h2>
+              <p>Hits to boost your mood and fill you with happiness!</p>
+            </div>
+            <div class="card">
+              <img src="s2.jpeg" alt="" class="src">
+              <h2>Happy Hits!</h2>
+              <p>Hits to boost your mood and fill you with happiness!</p>
+            </div>
+          </div>
+
+          <div class="playbar">
+           
+
+            <div class="seekbar">
+              <div class="circle">
+                
+              </div>
+            </div>
+            <div class="abovebar">
+            <div class="songinfo">
+
+            </div>
+            <div class="play-button">
+              <img id="previous" src="previous.svg">
+               <img id="play" src="play.svg">
+              <img  id="next" src="next.svg">
+              
+            </div>
+            <div class="timeinfo">
+
+            </div>
+            </div>
+          </div>
+          
+        
+      </div>
+    </div>
+    
+
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>

@@ -1,0 +1,39 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+
+.border{
+    /* border: 2px solid rgb(0, 128, 255); */
+    margin: -4px;
+
+}
+
+.flex{
+    display: flex;
+
+}
+
+.justify-center{
+    justify-content: center;
+}
+
+.items-center{
+    align-items: center;
+}
+.bg-color{
+    background-color: rgb(20, 18, 18);
+}
+.bg-black{
+    background-color: black;
+}
+.invert{
+    filter: invert(1);
+}
+.rounded{
+    border-radius: 7px;
+}
+.p-1{
+    padding: 10px;
+}
+.m-1{
+    margin-top: 16px;
+}
